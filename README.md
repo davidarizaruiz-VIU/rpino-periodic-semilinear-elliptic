@@ -19,10 +19,10 @@ This repository contains the implementation used for the numerical experiments i
 
 The main benchmark studied in the paper is the periodic semilinear elliptic problem
 
-\[
--\Delta u + \kappa u + u^3 = f
+$$
+-\Delta u + \kappa\ u + u^3 = f
 \qquad \text{on } \mathbb{T}^d.
-\]
+$$
 
 We report experiments in one and two spatial dimensions, with the main results focused on the two-dimensional setting.
 
