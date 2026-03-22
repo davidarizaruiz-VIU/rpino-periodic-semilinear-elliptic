@@ -1,8 +1,8 @@
-# Certified residual-preconditioned implicit neural operators in periodic Sobolev spaces
+# Certified residual-preconditioned implicit neural operators on periodic Sobolev spaces
 
 Code accompanying the paper:
 
-“A Certified Fixed-Point Framework for \ldots]{A Certified Fixed-Point Framework for Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces”
+“Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces”
 
 ## Overview
 
