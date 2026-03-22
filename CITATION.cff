@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "RP-INO for periodic semilinear elliptic problems"
+version: 1.0.0
+date-released: 2026-03-22
+authors:
+  - family-names: "Ariza Ruiz"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0001-8782-7219"
+identifiers:
+  - type: "other"
+    value: "ResearcherID: I-7210-2018"
+repository-code: "https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinear-elliptic"
+license: "MIT"
+abstract: >
+  Code for the numerical experiments accompanying the paper on certified
+  residual-preconditioned implicit neural operators in periodic Sobolev spaces.
