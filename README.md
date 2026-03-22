@@ -1,8 +1,8 @@
-# RP-INO for periodic semilinear elliptic problems
+# Certified residual-preconditioned implicit neural operators in periodic Sobolev spaces
 
 Code accompanying the paper:
 
-“Certified residual-preconditioned implicit neural operators in periodic Sobolev spaces”
+“A Certified Fixed-Point Framework for \ldots]{A Certified Fixed-Point Framework for Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces”
 
 ## Overview
 
