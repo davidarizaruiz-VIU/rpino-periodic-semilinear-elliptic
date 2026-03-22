@@ -1,0 +1,51 @@
+experiment_name: nonlinear_poisson_2d_v3
+seed: 123
+
+dimension: 2
+grid_size: 48
+domain_length: 6.283185307179586
+kappa: 2.0
+forcing_amplitude: 0.95
+forcing_modes: 7
+
+reference_solver:
+  max_iter: 900
+  tol: 1.0e-10
+  damping: 0.85
+
+backbone:
+  coarse_modes: 2
+  nonlinear_weight: 0.65
+
+training:
+  n_train: 192
+  n_val: 48
+  n_test: 48
+  batch_size: 8
+  epochs: 45
+  lr: 7.0e-4
+  weight_decay: 1.0e-6
+  rho: 0.45
+  free_rho: 1.0
+  hidden_channels: 32
+  depth: 4
+  kernel_size: 5
+  state_iters_train: 4
+  state_iters_eval: 8
+
+fno:
+  width: 32
+  depth: 4
+  modes_x: 12
+  modes_y: 12
+
+stability:
+  perturbation_scale: 0.02
+  n_pairs: 16
+
+shift_test:
+  amplitude: 1.15
+  modes: 10
+
+cross_resolution:
+  grid_size: 64
