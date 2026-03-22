@@ -11,6 +11,8 @@ identifiers:
   - type: "other"
     value: "ResearcherID: I-7210-2018"
 repository-code: "https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinear-elliptic"
+doi: 10.5281/zenodo.19156160
+url: "https://doi.org/10.5281/zenodo.19156160"
 license: "MIT"
 abstract: >
   Code for the numerical experiments accompanying the paper on certified
