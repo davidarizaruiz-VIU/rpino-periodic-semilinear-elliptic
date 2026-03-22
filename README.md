@@ -63,9 +63,11 @@ python scripts/09_make_paper_tables.py --config configs/nonlinear_poisson_2d.yam
 GitHub repository:
 `https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinear-elliptic`
 
-## Reproducibility note
+## Archived release
 
-For a citable frozen version of the implementation, create a tagged release on GitHub and archive it with Zenodo. The Zenodo DOI should be cited in the paper alongside the repository URL.
+A versioned archival release of this repository is available on Zenodo:
+
+https://doi.org/10.5281/zenodo.19156160
 
 ## Citation
 
