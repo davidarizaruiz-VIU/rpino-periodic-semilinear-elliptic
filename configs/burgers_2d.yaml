@@ -1,17 +1,18 @@
-experiment_name: nonlinear_poisson_2d_v3
-seed: 123
+experiment_name: burgers_2d_v1
+seed: 456
 
 dimension: 2
 grid_size: 48
 domain_length: 6.283185307179586
+nu: 0.1
 kappa: 2.0
-forcing_amplitude: 0.95
-forcing_modes: 7
+forcing_amplitude: 0.60
+forcing_modes: 6
 
 reference_solver:
-  max_iter: 900
+  max_iter: 1200
   tol: 1.0e-10
-  damping: 0.85
+  damping: 0.75
 
 backbone:
   coarse_modes: 2
@@ -22,8 +23,8 @@ training:
   n_val: 48
   n_test: 48
   batch_size: 8
-  epochs: 45
-  lr: 7.0e-4
+  epochs: 50
+  lr: 5.0e-4
   weight_decay: 1.0e-6
   rho: 0.45
   free_rho: 1.0
@@ -54,8 +55,8 @@ stability:
   n_pairs: 16
 
 shift_test:
-  amplitude: 1.15
-  modes: 10
+  amplitude: 0.75
+  modes: 9
 
 cross_resolution:
   grid_size: 64

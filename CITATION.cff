@@ -1,12 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as follows."
-title: "RP-INO for periodic semilinear elliptic problems"
+title: "Certified Implicit Neural Operators on Periodic Sobolev Spaces"
 version: 1.0.0
 date-released: 2026-03-22
 authors:
-  - family-names: "Ariza Ruiz"
+  - family-names: "Ariza-Ruiz"
     given-names: "David"
     orcid: "https://orcid.org/0000-0001-8782-7219"
+    affiliation: "Universidad Internacional de Valencia"
 identifiers:
   - type: "other"
     value: "ResearcherID: I-7210-2018"
@@ -14,6 +15,15 @@ repository-code: "https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinea
 doi: 10.5281/zenodo.19156160
 url: "https://doi.org/10.5281/zenodo.19156160"
 license: "MIT"
+keywords:
+  - "implicit neural operators"
+  - "fixed-point methods"
+  - "periodic Sobolev spaces"
+  - "operator learning"
+  - "scientific computing"
 abstract: >
-  Code for the numerical experiments accompanying the paper on certified
-  residual-preconditioned implicit neural operators in periodic Sobolev spaces.
+  Reproducible code for the numerical experiments in the paper
+  "Certified Implicit Neural Operators on Periodic Sobolev Spaces".
+  Implements the RP-INO architecture with certified contractivity
+  and compares against FNO, FNO-Small, and DeepONet baselines on
+  semilinear Poisson and steady viscous Burgers benchmarks.
