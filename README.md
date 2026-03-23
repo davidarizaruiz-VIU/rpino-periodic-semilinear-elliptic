@@ -141,12 +141,26 @@ pytest tests/ -v
 
 If you use this code, please cite:
 
+### Manuscript
+
 ```bibtex
 @article{arizaruiz2026certified,
   title   = {Certified Implicit Neural Operators on Periodic Sobolev Spaces},
   author  = {Ariza-Ruiz, David},
   journal = {Submitted to Journal of Scientific Computing},
   year    = {2026}
+}
+```
+
+### Manuscript
+
+```bibtex
+@software{ariza_ruiz_2026_19172623,
+  author  = {Ariza-Ruiz, David},
+  title   = {rpino-periodic-semilinear-elliptic},
+  year    = {2026},
+  doi     = {10.5281/zenodo.19172623},
+  url     = {https://doi.org/10.5281/zenodo.19172623}
 }
 ```
 
