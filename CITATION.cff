@@ -1,29 +1,39 @@
-cff-version: 1.2.0
+cff-version: "1.2.0"
 message: "If you use this software, please cite it as follows."
-title: "Certified Implicit Neural Operators on Periodic Sobolev Spaces"
-version: 1.0.0
-date-released: 2026-03-22
+title: "rpino-periodic-semilinear-elliptic"
+version: "1.0.0"
+date-released: "2026-03-22"
+doi: "10.5281/zenodo.19172623"
+url: "https://doi.org/10.5281/zenodo.19172623"
+repository-code: "https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinear-elliptic"
+license: "MIT"
+
 authors:
   - family-names: "Ariza-Ruiz"
     given-names: "David"
     orcid: "https://orcid.org/0000-0001-8782-7219"
     affiliation: "Universidad Internacional de Valencia"
-identifiers:
-  - type: "other"
-    value: "ResearcherID: I-7210-2018"
-repository-code: "https://github.com/davidarizaruiz-VIU/rpino-periodic-semilinear-elliptic"
-doi: 10.5281/zenodo.19172623
-url: "https://doi.org/10.5281/zenodo.19172623"
-license: "MIT"
+
 keywords:
   - "implicit neural operators"
   - "fixed-point methods"
   - "periodic Sobolev spaces"
   - "operator learning"
   - "scientific computing"
+
 abstract: >
   Reproducible code for the numerical experiments in the paper
-  "Certified Implicit Neural Operators on Periodic Sobolev Spaces".
-  Implements the RP-INO architecture with certified contractivity
+  "Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces".
+  It implements the RP-INO architecture with certified contractivity
   and compares against FNO, FNO-Small, and DeepONet baselines on
   semilinear Poisson and steady viscous Burgers benchmarks.
+
+preferred-citation:
+  type: article
+  title: "Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces"
+  authors:
+    - family-names: "Ariza-Ruiz"
+      given-names: "David"
+      orcid: "https://orcid.org/0000-0001-8782-7219"
+  journal: "Submitted to Journal of Scientific Computing"
+  year: 2026
