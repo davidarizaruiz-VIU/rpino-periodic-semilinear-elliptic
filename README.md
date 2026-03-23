@@ -1,10 +1,10 @@
-# Certified Implicit Neural Operators on Periodic Sobolev Spaces
+# Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19172623.svg)](https://doi.org/10.5281/zenodo.19172623)
 
 Code accompanying the paper:
 
-> **Certified Implicit Neural Operators on Periodic Sobolev Spaces**
+> **Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces**
 > 
 > David Ariza-Ruiz
 >
@@ -145,7 +145,7 @@ If you use this code, please cite:
 
 ```bibtex
 @article{arizaruiz2026certified,
-  title   = {Certified Implicit Neural Operators on Periodic Sobolev Spaces},
+  title   = {Certified Residual-Preconditioned Implicit Neural Operators on Periodic Sobolev Spaces},
   author  = {Ariza-Ruiz, David},
   journal = {Submitted to Journal of Scientific Computing},
   year    = {2026}
