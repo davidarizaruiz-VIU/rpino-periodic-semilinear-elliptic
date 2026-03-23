@@ -1,10 +1,14 @@
 # Certified Implicit Neural Operators on Periodic Sobolev Spaces
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19172623.svg)](https://doi.org/10.5281/zenodo.19172623)
+
 Code accompanying the paper:
 
 > **Certified Implicit Neural Operators on Periodic Sobolev Spaces**
 > David Ariza-Ruiz
 > *Submitted to Journal of Scientific Computing*, 2026.
+
+Archived software release on Zenodo: [10.5281/zenodo.19172623](https://doi.org/10.5281/zenodo.19172623)
 
 ## What this code does
 
