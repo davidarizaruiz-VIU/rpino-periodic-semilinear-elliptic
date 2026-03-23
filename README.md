@@ -152,7 +152,7 @@ If you use this code, please cite:
 }
 ```
 
-### Manuscript
+### Software release
 
 ```bibtex
 @software{ariza_ruiz_2026_19172623,
